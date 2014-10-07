@@ -1,9 +1,8 @@
 TODO::Application.routes.draw do
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+  resources :todo_lists
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'todo_lists#index' #sets our todo_list index page as the root!
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
