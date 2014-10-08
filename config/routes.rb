@@ -1,8 +1,9 @@
 TODO::Application.routes.draw do
-  resources :todo_lists
+  resources :todo_lists do
+    resources :todo_items
+  end
 
-  # You can have the root of your site routed with "root"
-  root 'todo_lists#index' #sets our todo_list index page as the root!
+  root 'todo_lists#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
