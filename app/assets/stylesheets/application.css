@@ -1,5 +1,10 @@
 /**= require todo_items
 *= require todo_lists*/
+@font-face{
+	font-family: 'LeagueSpartan';
+	src:font-url('LeagueSpartan-Bold.otf');
+}
+
 
 div.alert {
 	border: 2px solid #aaa;
