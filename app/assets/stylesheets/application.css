@@ -1,10 +1,14 @@
 /**= require todo_items
 *= require todo_lists*/
-@font-face{
+/*@font-face{
 	font-family: 'LeagueSpartan';
 	src:font-url('LeagueSpartan-Bold.otf');
-}
+}*/
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
 
+body{
+	font-family: Poiret One;
+}
 
 div.alert {
 	border: 2px solid #aaa;

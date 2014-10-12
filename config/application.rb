@@ -20,7 +20,7 @@ module TODO
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     I18n.enforce_available_locales = false
-
+    config.assets.enabled = true
     config.assets.paths << "#{Rails.root}/app/assets/fonts"
   end
 end
