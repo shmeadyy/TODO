@@ -1,9 +1,6 @@
-/**= require todo_items
-*= require todo_lists*/
-/*@font-face{
-	font-family: 'LeagueSpartan';
-	src:font-url('LeagueSpartan-Bold.otf');
-}*/
+/*require todo_items
+require todo_lists*/
+
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 
 body{
