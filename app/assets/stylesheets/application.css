@@ -3,8 +3,9 @@ require todo_lists*/
 
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 
-body{
+html{
 	font-family: Poiret One;
+	background: #D9D2CA;
 }
 
 div.alert {
@@ -58,11 +59,11 @@ div.nav ul li a{
 	display: block;
 	width: auto;
 	padding: 8px 10px 8px 10px;
-	background: #eee;
+	background: #E2F3FD;
 	color: #aaa;
 }
 
 div.nav ul li a:hover{
-	background: #aaa;
+	background: #82B3D1;
 	color: #eee;
 }
