@@ -33,8 +33,9 @@ div.flash.notice {
 
 div.nav {
 	border-bottom: 1px solid #E7E5D6;
-	margin-bottom: 20px;
+	margin: auto;
 	padding: 10px 0 0 5px;
+	width: 90%;
 }
 
 div.nav h1{
