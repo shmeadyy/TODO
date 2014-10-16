@@ -1,9 +1,8 @@
 <% @todo_lists.each do |todo_list| %>
 <div class="todo_list" id="<%= dom_id(todo_list) %>">
-  <h2><%= todo_list.title %></h2>
+	<h2><%= link_to "#{todo_list.title}", todo_list_todo_items_path(todo_list) %></h2>
   <p><%= todo_list.description %></p>
   <ul class="functions">
-    <li><%= link_to "List Items", todo_list_todo_items_path(todo_list) %></li>
     <li><%= link_to 'Show', todo_list %></li>
     <li><%= link_to 'Edit', edit_todo_list_path(todo_list) %></li>
     <li><%= link_to 'Destroy', todo_list, method: :delete, data: { confirm: 'Are you sure?' } %></li>
@@ -11,7 +10,6 @@
 <br class="clear"/>
 </div>
 <% end %>
-
 
 <%= link_to 'New Todo list', new_todo_list_path %>
 
