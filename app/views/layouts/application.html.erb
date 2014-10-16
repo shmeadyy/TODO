@@ -9,7 +9,7 @@
 	<%= csrf_meta_tags %>
 </head>
 <body>
-
+ <div class="container">
 	<div class="nav">
 		<h1><%= link_to "TODO", root_path %></h1>
 		<br class="clear" />
@@ -22,6 +22,6 @@
 	<% end %>
 
 	<%= yield %>
-
+</div>
 </body>
 </html>

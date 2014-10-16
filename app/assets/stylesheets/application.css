@@ -3,6 +3,10 @@ require todo_lists*/
 
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 
+.container{
+	width: 100%;
+}
+
 .clear { clear: both; }
 
 html{
@@ -45,4 +49,19 @@ div.nav h1{
 
 div.nav a{
 	text-decoration: none;
+}
+
+.footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding: 30px;
+	left: 0;
+	text-align: center;
+	background: #566220;
+}
+
+div.footer a{
+	text-decoration: none;
+	color: #fff;
 }
